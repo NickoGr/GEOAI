@@ -1,0 +1,103 @@
+{
+  "geoai_title_patterns": [
+    "\\bgeoai\\b",
+    "\\bgeospatial\\b",
+    "\\bspatial\\b",
+    "\\bgis\\b"
+  ],
+  "health_title_patterns": [
+    "\\bhealth\\b",
+    "\\bpublic\\s+health\\b",
+    "\\bepidemiolog(?:y|ical)\\b",
+    "\\bvulnerability\\b",
+    "\\bdisease\\b",
+    "\\brisk\\b",
+    "\\bsurveillance\\b",
+    "\\bdisparit(?:y|ies)\\b",
+    "\\binequalit(?:y|ies)\\b",
+    "\\bexposure\\b",
+    "\\baccessibilit(?:y|ies)\\b"
+  ],
+  "exclude_non_health_patterns": [
+    "\\bagricultur(?:e|al)\\b",
+    "\\beducation\\b",
+    "\\bwaste\\b",
+    "\\benergy\\b"
+  ],
+  "governance_core_patterns": [
+    "\\bbias\\b",
+    "\\bequit(?:y|ies)\\b",
+    "\\bgovernance\\b",
+    "\\bethic(?:s|al)?\\b"
+  ],
+  "dictionary_flags": {
+    "governance": [
+      "\\bgovernance\\b",
+      "\\baccountab(?:le|ility)\\b",
+      "\\bcontestab(?:le|ility)\\b",
+      "\\bfair(?:ness)?\\b",
+      "\\bequit(?:y|ies)\\b",
+      "\\bbias\\b",
+      "\\bethic(?:s|al)?\\b"
+    ],
+    "validation": [
+      "\\bvalidat(?:e|ed|ion)\\b",
+      "\\bcalibrat(?:e|ion)\\b",
+      "\\brobust(?:ness)?\\b",
+      "\\bgenerali[sz](?:e|ation|ability)\\b",
+      "\\btransferab(?:le|ility)\\b",
+      "\\bcross[- ]validation\\b"
+    ],
+    "intelligence": [
+      "\\bdata\\b",
+      "\\bcoverage\\b",
+      "\\bmissing(?:ness)?\\b",
+      "\\bprovenance\\b",
+      "\\bpopulation(?:s)?\\b",
+      "\\bterritor(?:y|ial|ies)\\b",
+      "\\brepresentation\\b"
+    ],
+    "processing": [
+      "\\bfeature(?:s)?\\b",
+      "\\bproxy(?:ies)?\\b",
+      "\\baggregation\\b",
+      "\\bharmoni[sz](?:e|ation)\\b",
+      "\\bspatial\\s+unit(?:s)?\\b",
+      "\\bvariable(?:s)?\\b",
+      "\\bpreprocess(?:ing)?\\b"
+    ],
+    "design": [
+      "\\bmodel(?:s)?\\b",
+      "\\bclassification\\b",
+      "\\bprediction(?:s)?\\b",
+      "\\bmachine\\s+learning\\b",
+      "\\bdeep\\s+learning\\b",
+      "\\bcnn\\b",
+      "\\bneural\\s+network(?:s)?\\b",
+      "\\bgraph\\s+neural\\s+network(?:s)?\\b"
+    ],
+    "choice": [
+      "\\ballocation\\b",
+      "\\btarget(?:ing|ed)?\\b",
+      "\\bintervention(?:s)?\\b",
+      "\\bdecision(?:s)?\\b",
+      "\\boverride\\b",
+      "\\bappeal(?:s)?\\b",
+      "\\bresource(?:s)?\\b",
+      "\\bprioriti[sz](?:e|ation)\\b"
+    ],
+    "urban": [
+      "\\burban\\b",
+      "\\bcity\\b",
+      "\\bcities\\b",
+      "\\bmetropolitan\\b",
+      "\\bsuburban\\b"
+    ],
+    "rural": [
+      "\\brural\\b",
+      "\\bremote\\b",
+      "\\bperipher(?:y|al)\\b",
+      "\\bnonurban\\b"
+    ]
+  }
+}
