@@ -1,10 +1,6 @@
 # GeoAI Public Health Screening Code
 
-This repository contains the screening code, regex dictionaries, and extraction logic used to reconstruct the corpus-based analytical workflow for the manuscript:
-
-**“A Governance Framework for GeoAI in Public Health”**
-
-The repository is designed to support transparency and reproducibility for the literature screening and descriptive corpus mapping procedures reported in the manuscript.
+This public GitHub repository contains the screening code, regex dictionaries, extraction logic, and derived analytical outputs associated with the manuscript **“A Governance Framework for GeoAI in Public Health.”** It is intended to support transparency and reproducibility for the literature screening and descriptive corpus analysis reported in the study.
 
 ## Contents
 
