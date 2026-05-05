@@ -98,5 +98,4 @@ If you use or adapt this notebook, please cite the associated manuscript.
 
 ## Author
 
-Nikolai A. Grudtsyn  
-St. Petersburg University
+Supplementary reproducibility materials for blinded review
